@@ -16,6 +16,13 @@ h1, h2 {
   text-shadow: 2px 2px 4px #00000050;
 }
 
+/* --- Resultado específico na tela final --- */
+#tela-final h2,
+#tela-final #resultado {
+  color: #000; /* Preto */
+  text-shadow: none; /* Remove sombra */
+}
+
 /* --- Telas --- */
 #tela-inicial, #tela-quiz, #tela-final {
   width: 90%;
